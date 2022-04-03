@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, useMatch, useResolvedPath } from 'react-router-dom';
+import { NavLink, useMatch, useResolvedPath } from 'react-router-dom';
 
 function CustomLink({ children, to, ...props }) {
     let resolved = useResolvedPath(to);
@@ -7,12 +7,12 @@ function CustomLink({ children, to, ...props }) {
   
     return (
       <div>
-        <Link className= 'no-underline'
+        <NavLink activeclassName= 'no-underline text-red-400'
           to={to}
           {...props}
         >
           {children}
-        </Link>
+        </NavLink>
         {match && " (active)"}
       </div>
     );

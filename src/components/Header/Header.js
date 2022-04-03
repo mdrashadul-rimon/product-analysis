@@ -14,7 +14,7 @@ const Header = () => {
                 </div>
             </nav>
             <ul className={`md:flex justify-center py-4 gap-5 absolute duration-500 ease-in bg-indigo-500 w-full md:static text-white ${open ? 'top-9' : 'top-[-180px]'}`}>
-                <CustomLink to="/home">Home</CustomLink>
+                <CustomLink to="/">Home</CustomLink>
                 <CustomLink to="/about">About</CustomLink>
                 <CustomLink to="/blog">Blogs</CustomLink>
                 <CustomLink to="/review">Review</CustomLink>

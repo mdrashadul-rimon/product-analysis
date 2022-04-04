@@ -9,7 +9,7 @@ const useReview = () => {
             .then(data => setReview(data));
     }, [])
     return (
-        <div className='md:container md:mx-auto grid md:grid-cols-4 grid-cols-1 gap-4 my-8'>
+        <div className='md:container sm:container sm:mx-auto md:mx-auto grid md:grid-cols-4 grid-cols-1 gap-4 my-8'>
             
             {
                 review.map(reviews =>

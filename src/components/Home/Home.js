@@ -9,7 +9,7 @@ const Home = () => {
    
 
     return (
-        <section className="md:container md:mx-auto">
+        <section className="md:container sm:container sm:mx-auto md:mx-auto">
             <div className='grid md:grid-cols-2 my-8 gap-5 items-center'>
                 <div>
                     <h1 className='text-7xl font-bold text-red-400 text-left'>In this Ramadan</h1>

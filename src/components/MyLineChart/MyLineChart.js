@@ -67,6 +67,7 @@ const MyLineChart = () => {
     return (
         <div>
             <h2 className='text-4xl my-9'>Fiscal year 2021</h2>
+            <section className='md:container'>
             <div className='grid gap-3 md:grid-cols-2 mx-auto items-center'>
                 <LineChart width={500} height={300} data={data}>
                     <Line type="monotone" dataKey={'investment'} stroke="#4169e1" />
@@ -88,6 +89,7 @@ const MyLineChart = () => {
                     <Tooltip></Tooltip>
                 </BarChart>
             </div>
+            </section>
 
         </div>
     );

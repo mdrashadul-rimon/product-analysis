@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import './Review.css';
+import './ReviewDetails.css';
 
-const useReview = () => {
+const ReviewDetails = () => {
     const [review, setReview] = useState([]);
     useEffect(() => {
         fetch(`reviewData.json`)
@@ -9,10 +9,10 @@ const useReview = () => {
             .then(data => setReview(data));
     }, [])
     return (
-        <div className='md:container md:mx-auto grid md:grid-cols-4 grid-cols-1 gap-4 my-8'>
+        <div className='md:container md:mx-auto grid md:grid-cols-3 grid-cols-1 gap-4 my-8'>
             
             {
-                review.map(reviews =>
+                review.slice(0,3).map(reviews =>
 
                     <div className=" bg-gray-200 antialiased rounded-lg text-gray-900">
                         <div>
@@ -41,8 +41,9 @@ const useReview = () => {
                                 </div>
                             </div>
 
-                        </div>
+                        </div> 
                     </div>
+                  
 
                 )
             }
@@ -50,4 +51,4 @@ const useReview = () => {
     );
 };
 
-export default useReview;
+export default ReviewDetails;

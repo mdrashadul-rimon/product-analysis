@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "ratings": 4.5,
+      "image": "https://randomuser.me/api/portraits/men/75.jpg",
+      "name": "Guy Sargent",
+      "words": "Very useful site for buying dates. will try again very soon.\r\n"
+    },
+    {
+      "id": 2,
+      "ratings": 4.2,
+      "image": "https://randomuser.me/api/portraits/men/72.jpg",
+      "name": "Darcy Leonard",
+      "words": "Must try. Original product and tastes very impressive.\r\n"
+    },
+    {
+      "id": 3,
+      "ratings": 5,
+      "image": "https://randomuser.me/api/portraits/men/73.jpg",
+      "name": "Garza Calderon",
+      "words": "I am ordering for the 4th time. They deliver very well with good packaging.\r\n"
+    },
+    {
+      "id": 4,
+      "ratings": 4.7,
+      "image": "https://randomuser.me/api/portraits/women/71.jpg",
+      "name": "Ayala Dorsey",
+      "words": "Must try. Original product and tastes very impressive.\r\n"
+    },
+    {
+      "id": 5,
+      "ratings": 4.9,
+      "image": "https://randomuser.me/api/portraits/women/72.jpg",
+      "name": "Angie Ford",
+      "words": "Tastes very good. Original product and very impressive packaging.\r\n"
+    },
+    {
+      "id": 6,
+      "ratings": 3.7,
+      "image": "https://randomuser.me/api/portraits/women/82.jpg",
+      "name": "Reilly Stevenson",
+      "words": "Good packaging. But not at the heighest level. Tastes good.\r\n"
+    },
+    {
+      "id": 7,
+      "ratings": 5,
+      "image": "https://randomuser.me/api/portraits/men/21.jpg",
+      "name": "Huff Faulkner",
+      "words": "I am ordering for the 4th time. They deliver very well with good packaging.\r\n"
+    }
+  ]

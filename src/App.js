@@ -9,6 +9,7 @@ import Register from './components/Register/Register';
 import NotFound from './components/NotFound/NotFound';
 import MyLineChart from './components/MyLineChart/MyLineChart';
 import Blog from './components/Blog/Blog';
+import Footer from './components/Footer/Footer';
 
 export default function App() {
   return (
@@ -25,9 +26,10 @@ export default function App() {
         <Route path="/mylinechart" element={<MyLineChart/>}/>
         <Route path="/register" element={<Register></Register>} />
         <Route path="*" element={<NotFound/>}/>
-
       </Routes>
-      <footer><span>All Right Reserved. Rashadul Alam Rimon | 2022</span></footer>
+
+      <Footer></Footer>
+  
     </div>
   );
 }

@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import MainRev from '../MainRev/MainRev';
-import Review from '../Review/Review';
 
 const CustRev = () => {
     const [custrev, setCustrev] = useState([]);
@@ -12,20 +11,14 @@ const CustRev = () => {
     }, [])
 
     return (
-        <div  className='md:container md:mx-auto grid md:grid-cols-3 grid-cols-1 gap-4 my-8'>
+        <div className='md:container md:mx-auto grid md:grid-cols-3 grid-cols-1 gap-4 my-8'>
             {
-                custrev.slice(0,3).map(mainrev => <MainRev
+                custrev.slice(0, 3).map(mainrev => <MainRev
                     key={mainrev.id}
                     mainrev={mainrev}
-                    ></MainRev>)
+                ></MainRev>)
             }
 
-            {/* {
-                custrev.map(review => <Review
-                key={review.id}
-                review={review}
-                ></Review>)
-            } */}
         </div>
     );
 };

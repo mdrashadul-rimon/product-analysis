@@ -1,14 +1,12 @@
 import React from 'react';
-import ReviewDetails from '../ReviewDetails/ReviewDetails';
 import img from "./dates.jpg";
 import { Link } from 'react-router-dom';
-import Hook from '../Hook/CustRev';
+import CustRev from '../CustRev/CustRev';
 
 
 const Home = () => {
     
    
-
     return (
         <section className="md:container sm:container sm:mx-auto md:mx-auto">
             <div className='grid md:grid-cols-2 my-8 gap-5 items-center'>
@@ -25,9 +23,8 @@ const Home = () => {
             </div>
             <div className='mb-10'>
                 <h2 className='text-4xl font-bold text-red-400'>Customer Reviews(3)</h2>
-                <Hook></Hook>
-                {/* <ReviewDetails></ReviewDetails> */}
-                <Link to={'/review'} className='my-4 py-3 px-6 bg-red-400 hover:bg-red-500 rounded-lg'>Show All Review</Link>
+                <CustRev></CustRev>
+                <Link to={'/detailrev'} className='my-4 py-3 px-6 bg-red-400 hover:bg-red-500 rounded-lg'>Show All Review</Link>
             </div>
 
         </section>

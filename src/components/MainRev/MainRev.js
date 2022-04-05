@@ -1,4 +1,5 @@
 import React from 'react';
+import './MainRev.css';
 
 const MainRev = ({ mainrev }) => {
     const { name, ratings, image, words } = mainrev;
@@ -22,7 +23,6 @@ const MainRev = ({ mainrev }) => {
 
                                 <div className="mt-4">
                                     <span className="text-teal-600 text-md font-semibold">Ratings: {ratings}/5 </span>
-                                    <span className="text-sm text-gray-600">(based on ratings</span>
                                 </div>
                                 <div>
                                     <span className="bg-indigo-100 text-teal-800 my-2 text-sm p-2 inline-block rounded-lg  tracking-wide">

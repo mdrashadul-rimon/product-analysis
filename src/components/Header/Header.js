@@ -17,9 +17,10 @@ const Header = () => {
                 <CustomLink to="/">Home</CustomLink>
                 <CustomLink to="/about">About</CustomLink>
                 <CustomLink to="/blog">Blogs</CustomLink>
-                <CustomLink to="/review">Review</CustomLink>
+                <CustomLink to="/detailrev">Reviews</CustomLink>
                 <CustomLink to="/mylinechart">Dashboard</CustomLink>
                 <CustomLink to="/register">Register</CustomLink>
+                <CustomLink to="/brokenlink">Sample 404</CustomLink>
             </ul>
         </div >
 

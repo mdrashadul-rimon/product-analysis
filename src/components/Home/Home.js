@@ -2,6 +2,7 @@ import React from 'react';
 import ReviewDetails from '../ReviewDetails/ReviewDetails';
 import img from "./dates.jpg";
 import { Link } from 'react-router-dom';
+import Hook from '../Hook/CustRev';
 
 
 const Home = () => {
@@ -24,7 +25,8 @@ const Home = () => {
             </div>
             <div className='mb-10'>
                 <h2 className='text-4xl font-bold text-red-400'>Customer Reviews(3)</h2>
-                <ReviewDetails></ReviewDetails>
+                <Hook></Hook>
+                {/* <ReviewDetails></ReviewDetails> */}
                 <Link to={'/review'} className='my-4 py-3 px-6 bg-red-400 hover:bg-red-500 rounded-lg'>Show All Review</Link>
             </div>
 
